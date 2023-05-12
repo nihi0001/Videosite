@@ -1,10 +1,28 @@
 h1{
-    color: darkmagenta;
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+
 }
 
 p{
-    color: violet;
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
 
 }
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url(img/belas3.jpg) ;
+}
+
+img{
+    width: 28%;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
