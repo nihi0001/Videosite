@@ -2,7 +2,9 @@ h1{
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-
+    margin: 20px;
+    padding: 20px;
+    font-size: 400%;
 
 }
 
@@ -11,6 +13,9 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
     font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+
 
 }
 
@@ -21,8 +26,29 @@ body{
 
 img{
     width: 28%;
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
+    /*  width: 28%; */
+    height: auto;
+    margin: 1%;
+    padding: 1%;
+    align-items: flex;
+}
+
+.plakatbillede{
+    width: 60%;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.videobelas{
+    width: 1300px;
+
+}
+
+.video_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 

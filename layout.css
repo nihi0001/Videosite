@@ -2,3 +2,20 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.grid_2-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media(max-width:950px){
+    .plakat{
+grid-template-columns: 1fr;
+    }
+}
+
